@@ -23,18 +23,16 @@ Start reading OOP section
 
 Assignments| 
 ---| 
-JS Fundaments Part I| 
-Be the Intepreter| 
-Build Some Functions!| 
-JS Fundamentals Part II| 
-JS Fundamentals Part III| 
+JS Basics Part I| 
+JS Basics Part II| 
+JS Math| 
+JS Intermediate| 
+JS DOM I| 
+JS DOM II| 
+JS Objects| 
+JS Hoisting| 
 JS Scroll **GitHub**| 
-Creating Objects I| 
-
-Optional|
----|
-Pok&#233;mon Battle|
-Evolving Syntax|
+Ninja Class I| 
 
 ### Tuesday, July 4
 
@@ -44,35 +42,42 @@ Evolving Syntax|
 
 OOP and advanced JavaScript: Callbacks, closures, immediate functions
 
-We are mostly skipping the Node.js chapter--it explains in great detail how to run a web server with only Node, but for the rest of the course, we'll be using Express, which does the same thing but with much more convenient syntax.  However, make sure you read the "Node Modules" tab and complete the "Math Module" assignment.
+Start reading the Node chapter
 
+We are mostly skipping the Node.js chapter--it explains in great detail how to run a web server with only Node, but for the rest of the course, we'll be using Express, which does the same thing but with much more convenient syntax.  However, make sure you read the "Node Modules" tab and complete the "Math Module" assignment.
 
 Assignments|
 ---|
-Creating Objects II|
-Creating Objects III **GitHub**|
+Ninja Class II **GitHub**|
+Ninja Class III|
+Deck of Cards **GitHub**|
 JavaScript Library|
-Button Fun|
-Math Module **GitHub**|
 
 Optional|
 ---|
-Bind, Call, and Apply|
 Hunting GitHub|
 DojoQuery|
 Fib + Nacci|
 Game Ideas|
+Bind, Call, and Apply|
 
 
 ### Thursday, July 6
 
-Express: Building a web server in JavaScript
+You may have noticed that building a webserver in Node is kind of inconvenient.  Luckily, there's a better way!  For the rest of the course, we'll be using Express, a prebuilt Node package for running a server.
 
 Socket.io hackathon 
 
 Assignments|
 ---|
+Math Module **GitHub**|
 Survey Form **GitHub**|
+
+Optional|
+---|
+Landing Page|
+Cars and Cats|
+Content Module|
 
 
 ### Friday, July 7
