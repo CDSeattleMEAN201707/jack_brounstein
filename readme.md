@@ -44,8 +44,6 @@ OOP and advanced JavaScript: Callbacks, closures, immediate functions
 
 Start reading the Node chapter
 
-We are mostly skipping the Node.js chapter--it explains in great detail how to run a web server with only Node, but for the rest of the course, we'll be using Express, which does the same thing but with much more convenient syntax.  However, make sure you read the "Node Modules" tab and complete the "Math Module" assignment.
-
 Assignments|
 ---|
 Ninja Class II **GitHub**|
@@ -66,12 +64,12 @@ Bind, Call, and Apply|
 
 You may have noticed that building a webserver in Node is kind of inconvenient.  Luckily, there's a better way!  For the rest of the course, we'll be using Express, a prebuilt Node package for running a server.
 
-Socket.io hackathon 
-
 Assignments|
 ---|
 Math Module **GitHub**|
-Survey Form **GitHub**|
+Counter|
+Survey Form|
+Great Number Game **GitHub**|
 
 Optional|
 ---|
@@ -79,36 +77,56 @@ Landing Page|
 Cars and Cats|
 Content Module|
 
-
 ### Friday, July 7
 
-Oh no, Mongo!
+Socket.io
 
-Message board will probably take a chunk of your weekend.  Don't fret that it's taking too long--it's a large assignment, and it's important to do right.
+Afternoon: socket.io hackathon
 
 Assignments|
 ---|
-Intro to MongoDB|
-Mongoose Dashboard|
-Quoting Dojo Redux **GitHub**|
-Message Board **GitHub**|
+Survey Form Revisited|
+Epic Button Game|
+Group Chat **GitHub**|
+
+Optional|
+---|
+Multiplayer PacMan|
 
 ## Week 2
 
 ### Monday, July 10
 
+Oh no, Mongo!
+
+Assignments|
+---|
+Intro to MongoDB|
+Mongoose Dashboard|
+Quoting Dojo **GitHub**|
+Message Board **GitHub**|
+
+### Tuesday, July 11
+
 Modularization: Turning one giant server file into several smaller files
 
-We'll also talk about using `express-session` to handle login/registration
-
-1955 API might not seem like much, but it's actually a very important assignment.  If you can complete it, you'll have pretty much all you need on the server side for a MEAN app...which is good, because tomorrow we start dealing with the client side.
+1955 API might not seem like much, but it's actually a very important assignment.  If you can complete it, you'll have pretty much all you need on the server side for a MEAN app...which is good, because on Thursday we start dealing with the client side.
 
 Assignments|
 ---|
 Modularized Mongoose|
 1955 API **GitHub**|
 
-### Tuesday, July 11
+### Wednesday, July 12
+
+Advanced Mongoose
+
+Assignments|
+Login & Registration **GitHub**|
+
+
+
+### Thursday, July 13
 
 Angular 4!  Note that we're working from the chapter labeled "Angular", not the "AngularJS" chapter, which is for Angular 1.
 
@@ -116,12 +134,14 @@ TypeScript and Component -- Data
 
 Assignments|
 ---|
-Types and Classes|
 My first app|
+Types and Classes|
 Dojo Mall **GitHub**|
 Retro Barcode Generator **GitHub**|
 
-### Wednesday, July 12
+### Friday, July 14
+
+[Bastille Day](https://www.youtube.com/watch?v=4K1q9Ntcr5g)!  The Dojo is open.
 
 Event listeners, nested components, inputs and output
 
@@ -130,11 +150,15 @@ Read Component -- Events and Architecture
 Assignments|
 ---|
 US Time Zone Display|
+Switchboard|
 Registration **GitHub**|
+Layout|
 Power Levels|
 Quote Ranks **GitHub**|
 
-### Thursday, July 13
+## Week 3
+
+### Monday, July 17
 
 Angular routes and services
 
@@ -150,44 +174,16 @@ GitHub Score **GitHub**|
 Dojo Weather Forecast|
 Project Product Management|
 
+### Tuesday, July 18
 
-### Friday, July 14
-
-[Bastille Day](https://www.youtube.com/watch?v=4K1q9Ntcr5g)!  The Dojo is open.
-
-Angular review + full MEAN!
+Full MEAN!
 
 When running a full MEAN application, we'll replace `ng serve` with `ng build -w` (and `nodemon server.js`, of course!)
 
-Please note that the bulk of this chapter was written when we were still using Angular 1, so some of the specific code samples (anything client side, basically) no longer apply; use what we've learned to replicate the functionality that the platform describes.
-
 Assignments|
 ---|
-File Structure and Simple Server|
-Friends API|
-Angular Friends|
-MEAN Friends **GitHub**|
-
-
-## Week 3
-
-### Monday, July 17
-
-Assignments|
----|
-Login and Registration **GitHub**|
-
-### Tuesday, July 18
-
-As of now, you should have all the tools you need to pass the belt exam.  The next few days are just practicing and reinforcing this knowlege.
-
-Assignments|
----|
-MEAN Wall **GitHub**|
-
-Optional|
----|
-Use angular cookies and/or express-session to generate a persistent user after login|
+Anonymous Notes|
+Team Manager **GitHub**|
 
 ### Wednesday, July 19
 
@@ -195,13 +191,12 @@ Deployment
 
 Assignments|
 ---|
-Mini-MEAN store **GitHub**|
+GitHub Battle|
+Bicycle Marketplace **GitHub**|
 
 ### Thursday, July 20
 
-Assignments|
----|
-Discussion Board **GitHub**|
+Review
 
 ### Friday, July 21
 
