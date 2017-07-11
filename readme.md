@@ -122,6 +122,7 @@ Modularized Mongoose|
 Advanced Mongoose
 
 Assignments|
+---|
 Login & Registration **GitHub**|
 
 
