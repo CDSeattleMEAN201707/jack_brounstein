@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Message Board</title>
+		<style type="text/css">
+			h3{
+				margin: 0px;
+			}
+
+			.message{
+				border: 2px solid black;
+				margin: 25px;
+				padding: 10px;
+			}
+
+			.comment{
+				border: 1px dotted black;
+				margin: 10px;
+				margin-left: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Message Board</h1>
+		<form action="/new_message" method="post">
+			<p>Name: <input type="text" name="name"></p>
+			<p>Message:</p>
+			<textarea rows=6 cols=60 name="message"></textarea>
+			<p><input type="submit" value="Post Message"></p>
+		</form>
+		<% for(var i=messages.length-1; i>=0; i--){ %>
+			<div class="message">
+				<h3>Name: <%= messages[i].name %></h3>
+				<p></p>
+				<h3>Message:</h3>
+				<p><%= messages[i].message %></p>
+				<h4>Comments:</h4>
+				<% if(messages[i].comments){ %>
+					<% for (var j = 0; j < messages[i].comments.length; j++) { %>
+						<div class="comment">
+							<p>Name: <%= messages[i].comments[j].name %></p>
+							<p>Comment: <%= messages[i].comments[j].comment %></p>
+						</div>
+					<% } %>
+				<% } %>
+				<form action="/new_comment" method="post">
+					<input type="hidden" name="message_id" value="<%= messages[i]._id %>">
+					<p>Name: <input type="text" name="name"></p>
+					<p>Comment:</p>
+					<textarea rows=4 cols=40 name="comment"></textarea>
+					<p><input type="submit" value="Post Comment"></p>
+				</form>
+			</div>
+		<% } %>
+	</body>
+</html>
