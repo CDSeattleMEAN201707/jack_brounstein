@@ -1,0 +1,8 @@
+<h3>New book?</h3>
+<form (submit)="create_book()" >
+	<p>Title: <input type="text" name="title" [(ngModel)]="new_book.title" ></p>
+	<p>Author: <input type="text" name="author" [(ngModel)]="new_book.author"></p>
+	<p>Pages: <input type="number" name="pages" [(ngModel)]="new_book.pages"></p>
+	<input type="submit" value="Create Book">
+</form>
+{{ new_book | json }}

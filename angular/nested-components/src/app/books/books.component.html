@@ -1,0 +1,4 @@
+<h1>BOOKS!</h1>
+<app-books-detail *ngFor="let book of books" [book]="book" ></app-books-detail>
+
+<app-books-create (create_event)="create_book($event)" ></app-books-create>
