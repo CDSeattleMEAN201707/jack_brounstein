@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { BooksComponent } from './books/books.component';
 import { BooksDetailComponent } from './books/books-detail/books-detail.component';
 import { BooksCreateComponent } from './books/books-create/books-create.component';
+import { FilterPipe } from './books/filter.pipe';
+import { SortPipe } from './books/sort.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     BooksComponent,
     BooksDetailComponent,
-    BooksCreateComponent
+    BooksCreateComponent,
+    FilterPipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
