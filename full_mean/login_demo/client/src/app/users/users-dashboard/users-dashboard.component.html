@@ -1,0 +1,17 @@
+<h1>USERS</h1>
+<h3 *ngIf="current_user">Hello, {{current_user.name}}</h3>
+<p><a href="/logout">Log out</a></p>
+<table>
+	<tr>
+		<th>Name</th>
+		<th>ID</th>
+		<th>Created At</th>
+		<th>Updated At</th>
+	</tr>
+	<tr *ngFor="let user of user_list">
+		<td>{{ user.name }}</td>
+		<td>{{ user._id }}</td>
+		<td>{{ user.createdAt | date:"medium" }}</td>
+		<td>{{ user.updatedAt | date:"medium" }}</td>
+	</tr>
+</table>

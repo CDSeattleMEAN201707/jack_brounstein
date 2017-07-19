@@ -1,0 +1,6 @@
+<h1>LOG IN</h1>
+
+<form (submit)="login()">
+	<p>Name: <input type="text" name="name" [(ngModel)]="new_user.name"></p>
+	<p><input type="submit" value="Log In" [disabled]="!new_user.name"></p>
+</form>
